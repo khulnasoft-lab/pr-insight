@@ -49,6 +49,7 @@ jobs:
             exit 1
           fi
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v4.0.1
+        # renovate: datasource=github-tags depName=codecov/codecov-action versioning=semver
+        uses: codecov/codecov-action@v4.6.0 # <COMMIT-SHA>
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
