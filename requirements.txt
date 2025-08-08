@@ -4,7 +4,7 @@ anthropic>=0.48
 atlassian-python-api==3.41.4
 azure-devops==7.1.0b3
 azure-identity==1.15.0
-boto3==1.33.6
+boto3==1.40.6
 certifi==2024.8.30
 dynaconf==3.2.4
 fastapi==0.111.0
